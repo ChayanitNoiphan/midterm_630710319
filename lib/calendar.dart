@@ -1,23 +1,11 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:midterm_630710319/calendar.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Calendar extends StatefulWidget {
+  const Calendar({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
-      home: const Calendar(),
-    );
-  }
+  State<Calendar> createState() => _CalendarState();
 }
 
 class _CalendarState extends State<Calendar> {
@@ -29,7 +17,7 @@ class _CalendarState extends State<Calendar> {
           children: [
             Container(
               decoration:
-              BoxDecoration(color: Colors.white, shape: BoxShape.circle),
+                  BoxDecoration(color: Colors.white, shape: BoxShape.circle),
               child: Icon(
                 Icons.arrow_back,
                 color: Theme.of(context).primaryColor,
@@ -63,7 +51,7 @@ class _CalendarState extends State<Calendar> {
                           ),
                           onPressed: () {},
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -78,7 +66,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -93,7 +81,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -114,7 +102,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -129,7 +117,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -144,7 +132,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -165,7 +153,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -180,7 +168,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -195,7 +183,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -216,7 +204,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -231,7 +219,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
@@ -246,7 +234,7 @@ class _CalendarState extends State<Calendar> {
                             style: TextStyle(color: Colors.indigo),
                           ),
                           style:
-                          ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(primary: Colors.white),
                         ),
                       ),
                     ),
